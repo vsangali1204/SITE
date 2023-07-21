@@ -39,7 +39,7 @@ h1, h2, h3{
     -webkit-text-fill-color: transparent;
 }
 
-.fundo1, .fundo2, .fundo3, .fundo4, .fundo5, .fundo6, .fundo7, .fundocal{
+.fundo1, .fundo2, .fundo3, .fundo4, .fundo5, .fundo6, .fundo7, .fundocal, .fundop{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -73,6 +73,7 @@ h1, h2, h3{
 .fundocal{
     background-image: url('../imagens/fundo10.jpeg');
 }
+
 .fundo10{
     background-color: #111;
 }

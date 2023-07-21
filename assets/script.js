@@ -97,7 +97,7 @@ $(document).ready(function(){
             case "12/6": titulo = "12 de Junho de 2021"; mensagem = "<p>Ai ai... o que dizer desse dia? Acho que foi tão intenso e sensacional, que reciprocamente eu nem precisaria escrever mais nada aqui, você saberia exatamente o momento único que tivemos juntos.</p><p>Eu pensei em mil coisas para fazermos em Franca, e no final das contas, não fizemos nada do que eu havia planejado 🤣 e o melhor de tudo, foi melhor do que eu pensei. Isso mostra que só de estar com você, independente da circunstâncias ou o que estiver acontecendo, tudo fica bom, melhor do que o esperado. É como você mesmo diz na sua descrição do WhatsApp \"São os momentos mais simples que marcam nossa vida.\"</p>";break;
             case "13/6": titulo = "13 de Junho de 2021"; mensagem = "<p>Acordar e ver você ali, certamente é uma das coisas que nunca vou esquecer na minha vida. São tantos momentos que eu consigo lembrar de todos em mínimos detalhes. Você saindo do banho toda perfumada; a gente assistindo Naruto juntos; nosso momento de intimidade de uma forma incrível; tomamos sorvete juntos; a viagem de volta a Guaíra enquanto eu segurava sua mão...</p><p>De fato, nunca esquecerei.</p>";break;
             case "19/6": titulo = "19 de Junho de 2021"; mensagem = "<section class='text-center'><p class='letra-vermelha'><strong>Este momento está sendo escrito agora...</strong></p></section>";break;
-            case "final": titulo = "29 de Junho de 2021"; mensagem = "<section class='text-center mt-5 mb-5'><p><strong>O dia em que ela disse<br><span class='letra2 letra-vermelha'>SIM</span></strong></p></section>";break;
+            case "final": titulo = "29 de Julho de 2021"; mensagem = "<section class='text-center mt-5 mb-5'><p><strong>O dia em que ela disse<br><span class='letra2 letra-vermelha'>SIM</span></strong></p></section>";break;
         }
 
         mostraPopUp(true, titulo, mensagem);
@@ -123,9 +123,9 @@ const mostraPopUp = (mostrar, titulo = "Título de testes", mensagem = "Mensagem
         $(".container").css("opacity", "1");
 
         if(telaFinal){
-            $("#tela19").fadeOut(4000);
+            $("#tela14").fadeOut(4000);
             setTimeout(() => {
-                $("#tela20").fadeIn(6500);
+                $("#tela15").fadeIn(6500);
                 $("body").attr("class", "fundo6");    
                 $("html, body").animate({ scrollTop: 0 }, "slow");
             }, 4000);
